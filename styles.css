@@ -12,6 +12,7 @@ body {
     /* Removes default padding */
     display: flex;
     /* Enables flexbox layout */
+    flex-direction: column;
     justify-content: center;
     /* Centers content horizontally */
     align-items: center;
@@ -20,8 +21,8 @@ body {
     /* Makes the body take the full height of the viewport */
 }
 
-h1 {
-    font-size: 2em;
+h1, h3, p {
+    /*font-size: 2em;*/
     /* Sets the size of the header text */
     text-align: center;
     /* Centers the header text */
